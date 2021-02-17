@@ -1,0 +1,9 @@
+Manufacturer=Murata Electronics
+PartNumber=DFE252012F-2R2M=P2
+PartCategory=Inductor
+PackageCategory=Other
+PinCount=2
+Version=3.4
+Released=2018-05-24 11:31:49
+Downloaded=2021-02-15 16:50:31
+3D=Y

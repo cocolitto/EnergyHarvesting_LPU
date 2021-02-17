@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_355333"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-05-24-11:31:49)
+    (utime 2020-04-15-07:47:17)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "DFE252012F-2R2M_P2")
+)
+
+
+(pinAssign "ECS_355333"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-05-24-11:31:49)
+    (utime 2020-04-15-07:47:17)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_355333")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "DFE252012F-2R2M_P2")
+)
+
+
+(part "DFE252012F-2R2M_P2"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-05-24-11:31:49)
+    (utime 2020-04-15-07:47:17)
+    (packageRef "DFE252012F-2R2M_P2")
+    (pinAssignRef "ECS_355333")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "L")
+    (property "description" "DFE252012F Series Inductor 2.2uH +/-20% 1008 (2520)")
+    (property "Mouser_Part_Number" "81-DFE252012F-2R2MP2")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/DFE252012F-2R2M%3dP2/?qs=ty6qhqyUUEuYhdA0a9%2F0aw%3D%3D")
+    (property "Manufacturer_Name" "Murata Electronics")
+    (property "Manufacturer_Part_Number" "DFE252012F-2R2M=P2")
+    (property "Datasheet_Link" "https://psearch.en.murata.com/inductor/product/DFE252012F-2R2M%23.html")
+    (property "compAreaTopHeight" 1.2)
+)
+
+

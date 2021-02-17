@@ -1,0 +1,63 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ATECC608A-TNGLORAU-B
+D Trust & Go LORAWAN  Provisioned Proto Typing  8-UDFN  I2C  (10 bulk)
+F http://ww1.microchip.com/downloads/en/DeviceDoc/40002154A.pdf
+$ENDCMP
+#
+$CMP BAT-HLD-001
+D Coin Cell Battery Holders Linx CR2032 Battery Holder
+F https://www.mouser.com/ds/2/238/bat-hld-001-220194.pdf
+$ENDCMP
+#
+$CMP CX3225SA16000
+D Crystal 40MHz +/-50ppm (Tol) +/-200ppm (Stability) 8pF FUND 50Ohm Automotive 4-Pin SMD T/R
+F https://www.mouser.ch/datasheet/2/909/cx3225sa_e-1393019.pdf
+$ENDCMP
+#
+$CMP Conn_ARM_JTAG_SWD_10
+D Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface
+K Cortex Debug Connector ARM SWD JTAG
+F http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf
+$ENDCMP
+#
+$CMP FC-135_32.7680KA-AG3
+D Crystals 32.768KHz 20ppm 7.0pF -40C +85C
+F http://www.mouser.com/ds/2/137/C-135R_en-1109071.pdf
+$ENDCMP
+#
+$CMP KMR221NGLFS
+D KMR221NGLFS (Tactile Switches)
+F https://www.ckswitches.com/media/1479/kmr2.pdf
+$ENDCMP
+#
+$CMP LPC55S16JBD64E
+D ARM Microcontrollers - MCU High Efficiency Arm Cortex-M33-based Microcontroller
+F https://www.nxp.com/docs/en/nxp/data-sheets/LPC55S1x_PDS.pdf
+$ENDCMP
+#
+$CMP NT2016SA-32M-END4263A
+D OSC VCTCXO 32MHZ SMD
+F http://www.ndk.com/en/products/search/tcxo/1190117_1503.html
+$ENDCMP
+#
+$CMP PE4259-63
+D SPDT High Power UltraCMOS 10 MHz3.0 GHz RF Switch
+F https://www.psemi.com/pdf/datasheets/pe4259ds.pdf
+$ENDCMP
+#
+$CMP SX1262IMLTRT
+D RF Transceiver LoRa, sub-GHz RF Transceiver 22dBm PA
+F http://www.mouser.com/datasheet/2/761/DS_SX1261-2_V1.1-1307803.pdf
+$ENDCMP
+#
+$CMP TPS62840DLCR
+D Switching Voltage Regulators 60-nA IQ, 1.8-V to 6.5-VIN, high-efficiency 750-mA step-down converter 8-VSON-HR -40 to 125
+F https://www.ti.com/lit/gpn/TPS62840
+$ENDCMP
+#
+$CMP TPS63031
+F https://www.ti.com/lit/ds/symlink/tps63031.pdf?ts=1600756672780&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPS63031
+$ENDCMP
+#
+#End Doc Library

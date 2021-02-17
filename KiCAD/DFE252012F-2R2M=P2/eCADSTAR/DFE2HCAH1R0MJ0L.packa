@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "DFE252012F-2R2M_P2"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-05-19-13:59:26)
+    (mountForm default
+        (footprintRef "DFE2HCAH1R0MJ0L")
+        (spec "System")
+    )
+)

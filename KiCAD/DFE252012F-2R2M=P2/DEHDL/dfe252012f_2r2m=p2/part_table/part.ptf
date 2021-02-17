@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'DFE252012F_2R2M=P2'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Murata Electronics", "DFE252012F-2R2M=P2" (!) = "", "DFE2HCAH1R0MJ0L", "Other", "81-DFE252012F-2R2MP2", "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/DFE252012F-2R2M%3dP2/?qs=ty6qhqyUUEuYhdA0a9%2F0aw%3D%3D", "DFE252012F Series Inductor 2.2uH +/-20% 1008 (2520)", "https://psearch.en.murata.com/inductor/product/DFE252012F-2R2M%23.html", "1.2 mm"
+END_PART
+
+END.

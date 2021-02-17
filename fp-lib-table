@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name tardigrade-components)(type KiCad)(uri ${KIPRJMOD}/tardigrade-components.pretty)(options "")(descr ""))
+  (lib (name digikey-footprints)(type KiCad)(uri "C:/Users/cc-isn/Desktop/Corsin Obrist/VM1/Repos/DigiKeyLib/digikey-footprints.pretty")(options "")(descr ""))
+  (lib (name DFE252012F-2R2M=P2)(type Legacy)(uri ${KIPRJMOD}/KiCAD/DFE252012F-2R2M=P2/KiCad/DFE252012F-2R2M=P2.mod)(options "")(descr ""))
+  (lib (name footprints)(type KiCad)(uri ${KIPRJMOD}/KiCAD/2021-02-15_15-38-33/footprints.pretty)(options "")(descr ""))
+)

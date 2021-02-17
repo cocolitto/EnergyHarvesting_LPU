@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DFE252012F-2R2M=P2
+D DFE252012F Series Inductor 2.2uH +/-20% 1008 (2520)
+K
+F https://psearch.en.murata.com/inductor/product/DFE252012F-2R2M%23.html
+$ENDCMP
+#
+#End Doc Library

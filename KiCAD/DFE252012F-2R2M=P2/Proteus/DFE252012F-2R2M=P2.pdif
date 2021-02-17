@@ -1,0 +1,107 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "DFE252012F-2R2M=P2"
+   (description "DFE252012F Series Inductor 2.2uH +/-20% 1008 (2520)")
+   (family "IND")
+   (package "DFE2HCAH1R0MJ0L")
+   (attribute "Datasheet Link" "https://psearch.en.murata.com/inductor/product/DFE252012F-2R2M%23.html")
+   (attribute "Geometry.Height" "1.2mm")
+   (attribute "Mouser Part Number" "81-DFE252012F-2R2MP2")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/DFE252012F-2R2M%3dP2/?qs=ty6qhqyUUEuYhdA0a9%2F0aw%3D%3D")
+   (attribute "Manufacturer_Name" "Murata Electronics")
+   (attribute "Manufacturer_Part_Number" "DFE252012F-2R2M=P2")
+   (gate
+    (symbol "DFE252012F-2R2M=P2")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "DFE252012F-2R2M=P2"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path
+     (arc (pt 200 0) (pt 200 -52) (pt 300 48) (start -175.4) (sweep 177.7)) (pt 300 0))
+   )
+   (graphic
+    (stroke 10)
+    (path
+     (arc (pt 300 0) (pt 300 -52) (pt 400 48) (start -175.4) (sweep 177.7)) (pt 400 0))
+   )
+   (graphic
+    (stroke 10)
+    (path
+     (arc (pt 400 0) (pt 400 -52) (pt 500 48) (start -175.4) (sweep 177.7)) (pt 500 0))
+   )
+   (graphic
+    (stroke 10)
+    (path
+     (arc (pt 500 0) (pt 500 -52) (pt 600 48) (start -175.4) (sweep 177.7)) (pt 600 0))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "DFE2HCAH1R0MJ0L"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.25 1)
+      (pt 1.25 1)
+      (pt 1.25 -1)
+      (pt -1.25 -1)
+      (pt -1.25 1))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.45 2.1)
+      (pt 2.45 2.1)
+      (pt 2.45 -2.1)
+      (pt -2.45 -2.1)
+      (pt -2.45 2.1))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 0 1)
+      (pt 0 -1))))
+   (leg 1 (pt -1.025 0.000) (padstack 0))
+   (leg 2 (pt 1.025 0.000) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.850 2.200 0 0 90.000))
+   )
+   (model "DFE252012F-2R2M=P2.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)
